@@ -1,0 +1,16 @@
+body {
+  font-family: Sans-Serif;
+  font-size: 85%;
+  margin: 20px;
+}
+#details {
+  display: none;
+  margin-top: 40px;
+}
+#details p {
+  line-height: 150%;
+}
+#error-msg {
+  display: none;
+  margin-top: 40px;
+}
