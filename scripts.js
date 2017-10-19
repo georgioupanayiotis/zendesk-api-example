@@ -4,7 +4,7 @@ function init() {
   document.getElementById('details').style.display = "none";
 
   var url = window.location.href;
-  if (url.indexOf('http://localhost:8887/ticket_details.html') !== -1) {
+  if (url.indexOf('http://url/ticket_details.html') !== -1) {
     if (url.indexOf('access_token=') !== -1) {
       var access_token = readUrlParam(url, 'access_token');
       localStorage.setItem('zauth', access_token);
